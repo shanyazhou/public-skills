@@ -1,0 +1,4 @@
+interface:
+  display_name: "Release Validation"
+  short_description: "Pre-release test checklist and evidence."
+  default_prompt: "Before finishing this change, create an acceptance checklist, run the relevant validation, and report tested and untested items."

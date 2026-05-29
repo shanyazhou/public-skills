@@ -1,0 +1,4 @@
+interface:
+  display_name: "Backend Engineering"
+  short_description: "Senior backend safety checks"
+  default_prompt: "Use $backend-engineering to inspect and harden this backend change end to end."

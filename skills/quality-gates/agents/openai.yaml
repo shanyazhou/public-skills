@@ -1,0 +1,4 @@
+interface:
+  display_name: "Quality Gates"
+  short_description: "High-risk change checklists."
+  default_prompt: "Identify the relevant quality gates for this change, run focused validation, and report evidence and residual risk."

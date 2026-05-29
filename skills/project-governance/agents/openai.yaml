@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project Governance / 项目治理"
+  short_description: "Set up reusable project context, handoff, notes, and engineering guardrails."
+  default_prompt: "初始化项目级上下文、交接摘要、事故记录和 validation 规则，同时避免把项目私密细节写进公共规则。"
