@@ -1,5 +1,7 @@
 # Codex Public Skills
 
+[中文说明](README.zh-CN.md)
+
 Reusable Codex skills for project governance, release validation, quality gates, and backend engineering.
 
 These skills are intentionally generic. They contain workflows, templates, and safety checks, but no project-specific business context, credentials, deployment targets, or private notes.
