@@ -2,7 +2,7 @@
 
 [中文说明](README.zh-CN.md)
 
-Reusable Codex skills for project governance, release validation, quality gates, and backend engineering.
+Reusable Codex skills for project governance, handoff, release validation, quality gates, backend engineering, and incident learning.
 
 These skills are intentionally generic. They contain workflows, templates, and safety checks, but no project-specific business context, credentials, deployment targets, or private notes.
 
@@ -12,6 +12,25 @@ These skills are intentionally generic. They contain workflows, templates, and s
 - `release-validation`: define acceptance criteria, run relevant validation, and report tested/untested items before saying done.
 - `quality-gates`: select focused checks for risky changes such as permissions, forms, dates, notifications, migrations, integrations, deployments, and production data.
 - `backend-engineering`: backend-focused guardrails for APIs, schemas, persistence, permissions, notifications, integrations, and deployments.
+
+## What This System Covers
+
+This is a small operating system for Codex collaboration, not a single prompt.
+
+- Project memory: keep stable facts in `PROJECT_CONTEXT.md`, not in chat history.
+- Active task state: keep long-running work in `ACTIVE_TASK.md`.
+- Session handoff: keep resumable state in `SESSION_SUMMARY.md`.
+- Incident learning: record real failures and regressions in `CODING_NOTES.md`.
+- Release discipline: define acceptance criteria and validation evidence before saying done.
+- Risk gates: add focused checks for high-risk areas.
+- Backend contracts: inspect API, schema, persistence, permissions, logs, and side effects together.
+
+`CODING_NOTES.md` is especially important. It turns problems into future checks:
+
+- Symptom: what happened.
+- Root Cause: why it happened.
+- Missed Check: what should have caught it.
+- Prevention: what to search, test, or verify next time.
 
 ## Install
 
@@ -50,6 +69,8 @@ Handoff
 ```
 
 This updates `ACTIVE_TASK.md` or `SESSION_SUMMARY.md` so a new session can resume without relying on full chat history.
+
+When a regression or validation miss happens, record the reusable lesson in `CODING_NOTES.md` so related future work starts by reading the known failure pattern.
 
 ## Included Scripts
 
