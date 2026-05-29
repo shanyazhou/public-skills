@@ -111,6 +111,12 @@ Do not commit:
 - private incident evidence
 - local-only deployment notes
 
+## Connect
+
+If you are also exploring Codex skills, AI coding workflows, or project governance for AI agents, feel free to add me on WeChat.
+
+<img src="wechat.jpg" alt="WeChat QR code" width="260">
+
 ## License
 
 MIT

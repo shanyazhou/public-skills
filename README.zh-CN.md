@@ -115,6 +115,12 @@ python3 "${CODEX_HOME:-$HOME/.codex}/skills/project-governance/scripts/update_ha
 - 私密事故证据
 - 本地部署笔记
 
+## 交流
+
+如果你也在研究 Codex skills、AI 编程工作流，或者想聊聊怎么把 AI agent 用得更像工程同事，欢迎加我微信交流。
+
+<img src="wechat.jpg" alt="微信二维码" width="260">
+
 ## 许可证
 
 MIT
